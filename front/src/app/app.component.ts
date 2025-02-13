@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { TopHeaderComponent } from './top-header/top-header.component';
-import { MainHeaderComponent } from './main-header/main-header.component';
+import { HeaderComponent } from './header/header.component';
+import { MainComponent } from './main/main.component';
 
 @Component({
   selector: 'app-root',
-  imports: [TopHeaderComponent, MainHeaderComponent],
+  imports: [HeaderComponent, MainComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
